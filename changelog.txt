@@ -1,0 +1,10 @@
+SWFinder 5.6 r3:
+1. Slightly improved interface
+2. Added checkbox to unzip file after downloading
+3. Updated download links database to 06-2022 IBN catalogue
+4. Improvements to UST and UST search logic
+5. added new progress bar
+6. updated database and added new logic for updating database, new updates will occur more often now
+7. Added Stop Download button to manually stop the download process
+8. Added open Downloads folder button for convenience
+9. slight improvements to Vediamo Comparison tool
