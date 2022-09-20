@@ -1,10 +1,31 @@
-SWFinder 5.6 r3:
-1. Slightly improved interface
-2. Added checkbox to unzip file after downloading
-3. Updated download links database to 06-2022 IBN catalogue
-4. Improvements to UST and UST search logic
-5. added new progress bar
-6. updated database and added new logic for updating database, new updates will occur more often now
-7. Added Stop Download button to manually stop the download process
-8. Added open Downloads folder button for convenience
-9. slight improvements to Vediamo Comparison tool
+SWFinder Version 5.7 changes 21.09.2022:
+1. Search results changed to table, they can now be sorted via top rows, Sort button will be removed in future versions.
+2. Flashwares search - now display download size of the file
+3. File tools - added several features: Get Diag ID - this button is used to extract diagnostic variant from the CFF files. Convert AED - this button is used to convert any vediamo/monaco HTML exported files containing variant coding and convert them to AED file.
+4. Compare Tool - added Monaco HTML comarison - still in Beta since monaco HTMLs do not follow linear structure. Vediamo HTML is greatly improved since 5.2.
+5. UST - As Universal Search Tool - this scans selected folder and then scans through files to find specific user search. You can select file types via checkboxes. Sometimes it is a lot faster than windows search and can scan through cff/smr files.
+6. VGS2 to 3 - this tab is used to convert VGS2 SCN string into VGS3 string. For example - XEWA on VGS2 can be used as YE2M on VGS3.
+7. Added Misc buttons like - "Open DL folder" - this opens the folder where you usually save your downloaded files. Added simply for convenience. Added "Generate Link" button, this is useful when doing remote stuff and you want easily to download the file on the other pc. Simply search for any cff/smr number, select it and then press generate link - it will automatically copy it and then you can paste it.
+8. Added improved progress bar which shows file size and is available for UST search and file downloading.
+9. Added 2 checkboxes: Unzip file after downloading - i think it is self-explanatory, Get Diagnostic variant - after downloading file it shows the diagnostic variant of the CFF in the status bar. Not all ECUs are currently implemented, will create a remote database of ecus in future versions.
+10. Added drag and drop functionality, after dropping a file you have 4 options. Convert HTML to AED, Set as File 1/2 for comparison, calculate sha1 and Get file software version.
+11. Slight improvements to Additional Info information fetching.
+
+
+SWFinder Version 5.6 r3:
+1. Slightly improved interface.
+2. Added checkbox to unzip file after downloading.
+3. Updated download links database to 06-2022 IBN catalogue.
+4. Improvements to UST and UST search logic.
+5. Added new progress bar.
+6. updated database and added new logic for updating database, new updates will occur more often now.
+7. Added Stop Download button to manually stop the download process.
+8. Added open Downloads folder button for convenience.
+9. slight improvements to Vediamo Comparison tool.
+
+
+SWFinder Version 5.3:
+1. HexToDec tab - added Remove Spacing checkbox for convenience, buttons are slightly adjusted.
+2. Compare Tool - implemented beta variant of Monaco HTML comparison (it currently works only if the first saved domain matches for both files for example both HTML files start with first coding domain "Tuner Application"). Minor changes to Vediamo HTML comparison as well. Added row coloring.
+3. Added UST tab - UST as Universal Search Tool, you select Directory, then enter text, check/uncheck the desired filetypes to be scanned. Useful when searching through many CFFs/HTMLs for specific text.
+4. Added VGS2 to 3 SCN tab.
