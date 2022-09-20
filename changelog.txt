@@ -1,4 +1,4 @@
-SWFinder Version 5.7 changes 21.09.2022:
+<a color="red">SWFinder Version 5.7 changes 21.09.2022:</a>
 1. Search results changed to table, they can now be sorted via top rows, Sort button will be removed in future versions.
 2. Flashwares search - now display download size of the file
 3. File tools - added several features: Get Diag ID - this button is used to extract diagnostic variant from the CFF files. Convert AED - this button is used to convert any vediamo/monaco HTML exported files containing variant coding and convert them to AED file.
