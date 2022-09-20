@@ -1,4 +1,4 @@
-<a color="red">SWFinder Version 5.7 changes 21.09.2022:</a>
+<span style=\" font-size:8pt; font-weight:600; color:#ff0000;\" >SWFinder Version 5.7 changes 21.09.2022:</span>
 1. Search results changed to table, they can now be sorted via top rows, Sort button will be removed in future versions.
 2. Flashwares search - now display download size of the file
 3. File tools - added several features: Get Diag ID - this button is used to extract diagnostic variant from the CFF files. Convert AED - this button is used to convert any vediamo/monaco HTML exported files containing variant coding and convert them to AED file.
@@ -12,7 +12,7 @@
 11. Slight improvements to Additional Info information fetching.
 
 
-SWFinder Version 5.6 r3:
+<span style=\" font-size:8pt; font-weight:600; color:#ff0000;\" >SWFinder Version 5.6 r3:</span>
 1. Slightly improved interface.
 2. Added checkbox to unzip file after downloading.
 3. Updated download links database to 06-2022 IBN catalogue.
