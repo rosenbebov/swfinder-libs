@@ -40,3 +40,4 @@ SWFinder Version 5.7.2 - UNRELEASED:
 1. Fixed some errors during conversion from VRX to AED. Some of the ecus already contain VCD, so the program now searches whether the coding domain has "VCD" included in its string.
 2. Added option to select both HTML and VRX files in Convert AED menu.
 3. When closing the application - now it closes all opened dialogs.
+4. Added some debug messages. Fixed critical bug with VRX to AED because of missing libraries.
