@@ -41,3 +41,4 @@ SWFinder Version 5.7.2 - UNRELEASED:
 2. Added option to select both HTML and VRX files in Convert AED menu.
 3. When closing the application - now it closes all opened dialogs.
 4. Added some debug messages. Fixed critical bug with VRX to AED because of missing libraries.
+5. Added cell background color to user input text for convenience when searching through a lot of files.
