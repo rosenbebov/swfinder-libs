@@ -45,3 +45,12 @@ SWFinder Version 5.7.3 - UNRELEASED:
 6. Now you can enable/disable the checkboxes for Open/Unzip after downloading + Get diagnostic variant - runtime (while file is downloading).
 7. Added option to search through text files in UST. When clicking on an item it now displays the path of the file.
 8. Fixed a bug for Vediamo HTML to AED that caused wrong conversion in byte values.
+
+
+SWFinder Version 5.7.5 - 08.03.2024: - https://raw.githubusercontent.com/rosenbebov/swfinder-libs/8f948f7deb1cc8be863786df5a91e459ef4bc817/sw_finder_5.exe - Download link
+1. Fixed problems with progress bar disappearing when there were 2 simultaneously downlading files.
+2. Fixed license constantly changing when inserting usb drives and running the program as administrator.
+3. Added option to auto download missing libs when the exe is ran for the first time.
+
+
+
