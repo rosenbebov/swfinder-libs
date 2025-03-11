@@ -51,6 +51,9 @@ SWFinder Version 5.7.5 - 08.03.2024: - https://raw.githubusercontent.com/rosenbe
 1. Fixed problems with progress bar disappearing when there were 2 simultaneously downlading files.
 2. Fixed license constantly changing when inserting usb drives and running the program as administrator.
 3. Added option to auto download missing libs when the exe is ran for the first time.
+4. Added option to copy to clipboard converted hex/dec string.
+5. Fixed crash of app while converting vediamo html files.
+6. Fixed problem with converting from HEX to Dec.
 
 
 
