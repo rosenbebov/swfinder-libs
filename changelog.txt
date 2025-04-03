@@ -57,3 +57,13 @@ SWFinder Version 5.7.5 - 08.03.2024: - https://raw.githubusercontent.com/rosenbe
 
 
 
+SWFinder Version 6.0.0 - 03.04.2025:
+1. Revamped UI design.
+2. Redesigned progress bar, now progress bars for multiple files show in dedicated tab Downloads.
+3. Added option for online search in SWFinder. Online search is PAID option.
+4. Offline database will not be updated anymore due to people using it in their programs without my consent.
+5. Added tips & hints when mouseovering specific UI elements.
+6. Added option for ADVANCED search. Currently advanced search is available only on HU55 and HU55ENTRY.
+7. Download ALL button in Flashware tab is temporary disabled.
+8. Added vertical tab options. In future versions - there will be links to download CBF/SMR-D files.
+9. Added Support tab. There the user can find some troubleshooting and explanations on specific retrofits.
