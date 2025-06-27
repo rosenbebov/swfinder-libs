@@ -1,62 +1,3 @@
-SWFinder Version 5.3:
-1. HexToDec tab - added Remove Spacing checkbox for convenience, buttons are slightly adjusted.
-2. Compare Tool - implemented beta variant of Monaco HTML comparison (it currently works only if the first saved domain matches for both files for example both HTML files start with first coding domain "Tuner Application"). Minor changes to Vediamo HTML comparison as well. Added row coloring.
-3. Added UST tab - UST as Universal Search Tool, you select Directory, then enter text, check/uncheck the desired filetypes to be scanned. Useful when searching through many CFFs/HTMLs for specific text.
-4. Added VGS2 to 3 SCN tab.
-
-
-SWFinder Version 5.6 r3:
-1. Slightly improved interface.
-2. Added checkbox to unzip file after downloading.
-3. Updated download links database to 06-2022 IBN catalogue.
-4. Improvements to UST and UST search logic.
-5. Added new progress bar.
-6. updated database and added new logic for updating database, new updates will occur more often now.
-7. Added Stop Download button to manually stop the download process.
-8. Added open Downloads folder button for convenience.
-9. slight improvements to Vediamo Comparison tool.
-
-
-SWFinder Version 5.7 - 16.09.2022:
-1. Search results changed to table, they can now be sorted via top rows, Sort button will be removed in future versions.
-2. Flashwares search - now display download size of the file
-3. File tools - added several features: Get Diag ID - this button is used to extract diagnostic variant from the CFF files. Convert AED - this button is used to convert any vediamo/monaco HTML exported files containing variant coding and convert them to AED file.
-4. Compare Tool - added Monaco HTML comarison - still in Beta since monaco HTMLs do not follow linear structure. Vediamo HTML is greatly improved since 5.2.
-5. UST - As Universal Search Tool - this scans selected folder and then scans through files to find specific user search. You can select file types via checkboxes. Sometimes it is a lot faster than windows search and can scan through cff/smr files.
-6. VGS2 to 3 - this tab is used to convert VGS2 SCN string into VGS3 string. For example - XEWA on VGS2 can be used as YE2M on VGS3.
-7. Added Misc buttons like - "Open DL folder" - this opens the folder where you usually save your downloaded files. Added simply for convenience. Added "Generate Link" button, this is useful when doing remote stuff and you want easily to download the file on the other pc. Simply search for any cff/smr number, select it and then press generate link - it will automatically copy it and then you can paste it.
-8. Added improved progress bar which shows file size and is available for UST search and file downloading.
-9. Added 2 checkboxes: Unzip file after downloading - i think it is self-explanatory, Get Diagnostic variant - after downloading file it shows the diagnostic variant of the CFF in the status bar. Not all ECUs are currently implemented, will create a remote database of ecus in future versions.
-10. Added drag and drop functionality, after dropping a file you have 4-5 options. Convert HTML to AED, Set as File 1/2 for comparison, calculate sha1 and Get file software version.
-11. Slight improvements to Additional Info information fetching in SWFinder tab.
-
-
-SWFinder Version 5.7.1 - 21.09.2022:
-1. Added option to convert VRX files to AED. Needs additional testing. After conversion automatically opens target folder. Will be removed if users consider it annoying.
-2. Added Changelog button - this is to display latest changes as well as to provide option to update the app in future releases.
-
-
-SWFinder Version 5.7.3 - UNRELEASED:
-1. Fixed some errors during conversion from VRX to AED. Some of the ecus already contain VCD, so the program now searches whether the coding domain has "VCD" included in its string.
-2. Added option to select both HTML and VRX files in Convert AED menu.
-3. When closing the application - now it closes all opened dialogs.
-4. Added some debug messages. Fixed critical bug with VRX to AED because of missing libraries.
-5. Added cell background color to user input text for convenience when searching through a lot of files.
-6. Now you can enable/disable the checkboxes for Open/Unzip after downloading + Get diagnostic variant - runtime (while file is downloading).
-7. Added option to search through text files in UST. When clicking on an item it now displays the path of the file.
-8. Fixed a bug for Vediamo HTML to AED that caused wrong conversion in byte values.
-
-
-SWFinder Version 5.7.5 - 08.03.2024: - https://raw.githubusercontent.com/rosenbebov/swfinder-libs/8f948f7deb1cc8be863786df5a91e459ef4bc817/sw_finder_5.exe - Download link
-1. Fixed problems with progress bar disappearing when there were 2 simultaneously downlading files.
-2. Fixed license constantly changing when inserting usb drives and running the program as administrator.
-3. Added option to auto download missing libs when the exe is ran for the first time.
-4. Added option to copy to clipboard converted hex/dec string.
-5. Fixed crash of app while converting vediamo html files.
-6. Fixed problem with converting from HEX to Dec.
-
-
-
 SWFinder Version 6.0.0 - 03.04.2025:
 1. Revamped UI design.
 2. Redesigned progress bar, now progress bars for multiple files show in dedicated tab Downloads.
@@ -66,4 +7,18 @@ SWFinder Version 6.0.0 - 03.04.2025:
 6. Added option for ADVANCED search. Currently advanced search is available only on HU55 and HU55ENTRY.
 7. Download ALL button in Flashware tab is temporary disabled.
 8. Added vertical tab options. In future versions - there will be links to download CBF/SMR-D files.
-9. Added Support tab. There the user can find some troubleshooting and explanations on specific retrofits.
+9. Added Support tab. The user can find some troubleshooting and explanations on specific retrofits.
+
+SWFinder Version 6.0.5 - 17.05.2025
+1. Revamped Monaco HTML DTS Compare Tool. Updated to Version 2.0.
+2. Added thread queue for files downloading, it can download up to 3 files simultaneously now.
+3. Fixed "Update Database" action in menus.
+
+SWFinder Version 6.0.6 - 23.06.2025
+1. Changed the EXE icon.
+2. Added option to search for vehicle ecu/hw/sw by VIN. Currently it's trial and testing period and it's free. Will be added to PAID option at later stage.
+3. Over 2000 VINs were added to the database. Database is updated daily. If your vin is missing, please write and i will add it.
+
+SWFinder Version 6.0.7 - 26.06.2025
+1. Added option to get available options/codings by VIN. Currently it's trial and testing period and it's free. Will be added to PAID option at later stage.
+-- Please note that not all ECUs are currently supported as database is work in progress. More ECUs will be added on weekly basis.
