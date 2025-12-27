@@ -1,0 +1,1 @@
+NEW: We now offer the service to provide full info about software updates for all ecus by VIN. Price is 40 EUR per VIN.
