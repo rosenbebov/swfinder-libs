@@ -1,18 +1,24 @@
-SWFinder Version 6.0.0 - 03.04.2025:
-1. Revamped UI design.
-2. Redesigned progress bar, now progress bars for multiple files show in dedicated tab Downloads.
-3. Added option for online search in SWFinder. Online search is PAID option.
-4. Offline database will not be updated anymore due to people using it in their programs without my consent.
-5. Added tips & hints when mouseovering specific UI elements.
-6. Added option for ADVANCED search. Currently advanced search is available only on HU55 and HU55ENTRY.
-7. Download ALL button in Flashware tab is temporary disabled.
-8. Added vertical tab options. In future versions - there will be links to download CBF/SMR-D files.
-9. Added Support tab. The user can find some troubleshooting and explanations on specific retrofits.
+SWFinder Version 6.0.9 - 18.03.2026:
+1. Fix for program crashing while searching direct vin.
+2. Added option to show country while displaying Advanced Vin search results.
+3. App startup performance improvements.
+4. UX Improvements.
+5. More fixes to follow in the next days.
 
-SWFinder Version 6.0.5 - 17.05.2025
-1. Revamped Monaco HTML DTS Compare Tool. Updated to Version 2.0.
-2. Added thread queue for files downloading, it can download up to 3 files simultaneously now.
-3. Fixed "Update Database" action in menus.
+
+SWFinder Version 6.0.8 - 17.03.2026:
+1. Improvements and bug fixes to Downloads tab. Option to stop queued downloads is implemented.
+2. Bug fixes to VIN Search tab.
+3. Added new Advanced VIN search tab. It's used to query vin by fin/vin prefix, ecu name, hw, sw, sa code.
+-- Users can now search via direct fin/vin, multiple parameters or via serial.
+4. Added option to filter results in advanced search.
+5. Added Update Reports search tab. It's used to query available HTML reports by vin. NOTE: Searching via prefix requires paid license. Querying direct vin is free.
+
+
+SWFinder Version 6.0.7 - 26.06.2025
+1. Added option to get available options/codings by VIN. Currently it's trial and testing period and it's free. Will be added to <b>PAID</b> option at later stage.
+-- Please note that not all ECUs are currently supported as database is work in progress. More ECUs will be added on weekly basis.
+
 
 SWFinder Version 6.0.6 - 23.06.2025
 1. Changed the EXE icon.
@@ -20,14 +26,6 @@ SWFinder Version 6.0.6 - 23.06.2025
 3. Added option to search for vehicle ecu/hw/sw by VIN. Currently it's trial and testing period and it's free. Will be added to <b>PAID</b> option at later stage.
 4. Over 2000 VINs were added to the database. Database is updated daily. If your vin is missing, please write and i will add it.
 
-SWFinder Version 6.0.7 - 26.06.2025
-1. Added option to get available options/codings by VIN. Currently it's trial and testing period and it's free. Will be added to <b>PAID</b> option at later stage.
--- Please note that not all ECUs are currently supported as database is work in progress. More ECUs will be added on weekly basis.
 
-SWFinder Version 6.0.8 - 17.03.2026
-1. Improvements and bug fixes to Downloads tab. Option to stop queued downloads is implemented.
-2. Bug fixes to VIN Search tab.
-3. Added new Advanced VIN search tab. It's used to query vin by fin/vin prefix, ecu name, hw, sw, sa code.
--- Users can now search via direct fin/vin, multiple parameters or via serial.
-4. Added option to filter results in advanced search.
-5. Added Update Reports search tab. It's used to query available HTML reports by vin. NOTE: Searching via prefix requires paid license. Querying direct vin is free.
+
+
