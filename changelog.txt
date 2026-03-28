@@ -1,3 +1,10 @@
+SWFinder Version 6.1.0 - 28.03.2026:
+1. Fixed various issues with advanced vin search.
+2. Added Search V2 - new revamped design that is available only for paid license. It includes files along with diagnostic variant for each file. Database updated daily.
+3. UI Improvements
+4. Fix various program crashes. 
+
+
 SWFinder Version 6.0.9 - 18.03.2026:
 1. Fix for program crashing while searching direct vin.
 2. Added option to show country while displaying Advanced Vin search results.
