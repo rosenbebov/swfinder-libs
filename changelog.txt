@@ -1,4 +1,4 @@
-SWFinder Version 6.1.0 - 08.04.2026:
+SWFinder Version 6.1.1 - 08.04.2026:
 1. Improved flashware search - You can now search by wildcard in 'Software' tab: ex. 2049022*03.
 2. Improvements to new VIN search. While filtering results - matched results will be automatically selected.
 3. Fixed various exe crashes while the server was not reachable.
