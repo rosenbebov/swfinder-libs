@@ -1,3 +1,11 @@
+SWFinder Version 6.1.0 - 08.04.2026:
+1. Improved flashware search - You can now search by wildcard in 'Software' tab: ex. 2049022*03.
+2. Improvements to new VIN search. While filtering results - matched results will be automatically selected.
+3. Fixed various exe crashes while the server was not reachable.
+4. Added new tab in Tools: You can now download CBF/SMR-D files directly from the program. Creating projects will be implemented in next version.
+5. Minor UI improvements.
+6. Added option to search for VINs by specific ECU Name + Hardware from Search V2 tab.
+
 SWFinder Version 6.1.0 - 28.03.2026:
 1. Fixed various issues with advanced vin search.
 2. Added Search V2 - new revamped design that is available only for paid license. It includes files along with diagnostic variant for each file. Database updated daily.
