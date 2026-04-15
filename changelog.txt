@@ -1,3 +1,9 @@
+SWFinder Version 6.1.2 - 16.04.2026:
+1. Fixed some program crashes.
+2. Minor UI improvements to Advanced VIN search.
+3. Added option to generate temporary download link for CBF/SMR-D files.
+
+
 SWFinder Version 6.1.1 - 08.04.2026:
 1. Improved flashware search - You can now search by wildcard in 'Software' tab: ex. 2049022*03.
 2. Improvements to new VIN search. While filtering results - matched results will be automatically selected.
@@ -5,6 +11,7 @@ SWFinder Version 6.1.1 - 08.04.2026:
 4. Added new tab in Tools: You can now download CBF/SMR-D files directly from the program. Creating projects will be implemented in next version.
 5. Minor UI improvements.
 6. Added option to search for VINs by specific ECU Name + Hardware from Search V2 tab.
+
 
 SWFinder Version 6.1.0 - 28.03.2026:
 1. Fixed various issues with advanced vin search.
@@ -28,19 +35,4 @@ SWFinder Version 6.0.8 - 17.03.2026:
 -- Users can now search via direct fin/vin, multiple parameters or via serial.
 4. Added option to filter results in advanced search.
 5. Added Update Reports search tab. It's used to query available HTML reports by vin. NOTE: Searching via prefix requires paid license. Querying direct vin is free.
-
-
-SWFinder Version 6.0.7 - 26.06.2025
-1. Added option to get available options/codings by VIN. Currently it's trial and testing period and it's free. Will be added to <b>PAID</b> option at later stage.
--- Please note that not all ECUs are currently supported as database is work in progress. More ECUs will be added on weekly basis.
-
-
-SWFinder Version 6.0.6 - 23.06.2025
-1. Changed the EXE icon.
-2. Enabled Download ALL button.
-3. Added option to search for vehicle ecu/hw/sw by VIN. Currently it's trial and testing period and it's free. Will be added to <b>PAID</b> option at later stage.
-4. Over 2000 VINs were added to the database. Database is updated daily. If your vin is missing, please write and i will add it.
-
-
-
 
