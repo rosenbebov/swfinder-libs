@@ -1,3 +1,16 @@
+SWFinder Version 6.1.4 - 01.06.2026:
+1. Fixed some program crashes.
+2. Flashwares Online: Added extended software info.
+3. Flashwares Online: Fixed sorting by size issue.
+4. Added Clear table button in Downloads tab.
+5. Fixed bug where program will hang while extracting a file.
+6. Replaced 'car' icon with VIN icon for UX readability.
+7. Fixed problem with displaying wrong path while downloading multiple files at once.
+8. Moved Update Search tab into main tab.
+9. Added option to search by country in Advanced VIN Search tab.
+10. Offline Libs will now be automatically downloaded if they are missing.
+
+
 SWFinder Version 6.1.3 - 25.04.2026:
 1. Fixed some program crashes.
 2. <b>NEW!</b>: Added online cff/smr-f database. Licensed users can now download newest CFF/SMR-F files.
@@ -6,6 +19,7 @@ SWFinder Version 6.1.3 - 25.04.2026:
 5. Fixed a bug in software search where wildcard search was not working.
 6. Revamped progress bar, now shows ETA, download speed and percentage.
 7. Redesigned SA codes and SW list in advanced VIN search. It's likely to be changed again.
+
 
 SWFinder Version 6.1.2 - 16.04.2026:
 1. Fixed some program crashes.
