@@ -1,3 +1,12 @@
+SWFinder Version 6.1.5 - 23.07.2026:
+1. Fixed some known issues with Advanced VIN search.
+2. Flashwares Online: Added option to generate remote link for download file.
+3. Advanced VIN: Added option to export VIN details as PDF.
+4. Advanced VIN: Added option to list available codings for specified vin.
+5. Advanced VIN: Added button to obtain the fields for ECU names from remote server.
+6. Minor UI improvements.
+
+
 SWFinder Version 6.1.4 - 01.06.2026:
 1. Fixed some program crashes.
 2. Flashwares Online: Added extended software info.
