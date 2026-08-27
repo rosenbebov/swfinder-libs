@@ -75,3 +75,14 @@ SWFinder Version 6.1.6 - 05.08.2026:
 3. Flashwares Online - users can now search multiple files instead file by file.
 4. XUS generated links are now valid for 2 hours.
 5. Several crash fixes.
+
+
+SWFinder Version 6.1.7 - 28.08.2026:
+1. Fixed various crashes when requesting vehicle available codings.
+2. Added new INFO tab that will display current announcements as well as user HWID and future link to a website.
+3. Various UI improvements. Advanced VIN search fields will change to green when they are populated.
+4. Added option to retrieve HW numbers based on ECU.
+5. Added option to use the program full screen. UI is now scaling with expanding window.
+6. Small UI improvements.
+7. XUS generated links are now valid for 3 hours.
+8. Improvements to Software online database search. Users can now search multiple files at once. 
