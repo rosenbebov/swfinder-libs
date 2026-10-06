@@ -86,3 +86,15 @@ SWFinder Version 6.1.7 - 28.08.2026:
 6. Small UI improvements.
 7. XUS generated links are now valid for 3 hours.
 8. Improvements to Software online database search. Users can now search multiple files at once. 
+
+
+SWFinder Version 6.1.8 - 07.10.2026:
+1. Fixed Downloads button.
+2. Fixed app freezing while searching for many files in online search.
+3. Fixed incorrect obtaning of HWID on some machines. Some of the existing HWID need to be reauthorized.
+4. Added option to show update file in Advanced VIN search. Users can choose up to 4 levels of software prediction precision. SW update table is updated daily. Requires active license.
+5. Added option to show diagnostic variant in Online Flashwares search. Requires active license.
+6. Added new field to set limit for results while searching online database. Default is 100.
+7. Open DL in Downloads tab now highlights the selected file.
+8. Minor fixes to fields in Advanced Search tab.
+9. Updated download link to official website.
