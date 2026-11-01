@@ -98,3 +98,10 @@ SWFinder Version 6.1.8 - 07.10.2026:
 7. Open DL in Downloads tab now highlights the selected file.
 8. Minor fixes to fields in Advanced Search tab.
 9. Updated download link to official website.
+
+
+SWFinder Version 6.1.8 - 02.11.2026:
+1. Fixed bug when comparing DTS Monaco HTML files.
+2. Advanced VIN: added right click option to download all files - CBF/SMR-D/CFF/SMR-F or generate links.
+3. Search V2: Added Download All button to download all files from available results.
+4. Minor UI improvements.
