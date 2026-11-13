@@ -1,27 +1,3 @@
-SWFinder Version 6.0.8 - 17.03.2026:
-1. Improvements and bug fixes to Downloads tab. Option to stop queued downloads is implemented.
-2. Bug fixes to VIN Search tab.
-3. Added new Advanced VIN search tab. It's used to query vin by fin/vin prefix, ecu name, hw, sw, sa code.
--- Users can now search via direct fin/vin, multiple parameters or via serial.
-4. Added option to filter results in advanced search.
-5. Added Update Reports search tab. It's used to query available HTML reports by vin. NOTE: Searching via prefix requires paid license. Querying direct vin is free.
-
-
-SWFinder Version 6.0.9 - 18.03.2026:
-1. Fix for program crashing while searching direct vin.
-2. Added option to show country while displaying Advanced Vin search results.
-3. App startup performance improvements.
-4. UX Improvements.
-5. More fixes to follow in the next days.
-
-
-SWFinder Version 6.1.0 - 28.03.2026:
-1. Fixed various issues with advanced vin search.
-2. Added Search V2 - new revamped design that is available only for paid license. It includes files along with diagnostic variant for each file. Database updated daily.
-3. UI Improvements
-4. Fix various program crashes. 
-
-
 SWFinder Version 6.1.1 - 08.04.2026:
 1. Improved flashware search - You can now search by wildcard in 'Software' tab: ex. 2049022*03.
 2. Improvements to new VIN search. While filtering results - matched results will be automatically selected.
@@ -100,8 +76,18 @@ SWFinder Version 6.1.8 - 07.10.2026:
 9. Updated download link to official website.
 
 
-SWFinder Version 6.1.8 - 02.11.2026:
+SWFinder Version 6.1.9 - 02.11.2026:
 1. Fixed bug when comparing DTS Monaco HTML files.
 2. Advanced VIN: added right click option to download all files - CBF/SMR-D/CFF/SMR-F or generate links.
 3. Search V2: Added Download All button to download all files from available results.
 4. Minor UI improvements.
+
+
+SWFinder Version 6.2.0 - 13.11.2026:
+1. Redesigned Search V2 to include more filters/advanced search.
+2. Search V2: Added light blue background to indicate which is newest software based on specified search.
+3. Search V2: Added option to generate links for fileset.
+4. Added more options in right-click context menus for various lists.
+5. Advanced VIN search: Right click supports downloading all CBF/SMR-D for all ecus for specified vin.
+6. Universal Search - added caching option and slightly improved search speed.
+7. Minor UI improvements.
